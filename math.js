@@ -18,3 +18,10 @@ function isEven(n) {
 console.log("Test 1 (Positive):", isEven(19.7));
 console.log("Test 2 (Negative):", isEven(-94));
 console.log("Test 3 (Zero):", isEven(0));
+
+function isOdd(n){
+    return n % 2 !== 0;
+}
+console.log("Test 1 (Positive):", isOdd(12,6));
+console.log("Test 2 (Negative):", isOdd(-76));
+console.log("Test 3: Zero:", isOdd(0));
